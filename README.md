@@ -35,8 +35,11 @@ the sequence encoding the quality values for the sequence of all blocks, and mus
 Example of input_SNP_matrix_file: 
 
 1 read_1 23 0101 G,&G
+
 1 read_2 24 0011 HGGG
+
 4 read_3 25 0 26 10 29 0 31 1 GGGGG
+
 2 read_4 26 00011 40 11100 GGGGGGGGGG
 
 
