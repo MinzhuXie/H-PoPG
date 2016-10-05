@@ -47,3 +47,6 @@ If a VCF file is provided, the start position of a read block _MUST_ match the i
 
 Please see the example files frags.txt, example.vcf and phased_haplotypes.txt
 for the formats of the input SNP matrix file , genotype file and the output file . 
+
+There is a discussion about the problems of using H-PoPG in stackoverflow (Thank Mel Carbajo for starting the discussion), and if you have any problems about using H-PoPG, please join the discussion. 
+http://stackoverflow.com/questions/39859409/h-popg-haplotyper-nullpointerexception-error-at-algorithms-hbop2builder
