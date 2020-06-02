@@ -74,7 +74,7 @@ H-PoPG version: 0.2.0. Author: Xie Minzhu. Email: xieminzhu@hotmail.com
 
 (3) Only transfer a BAM File to a Frag file (the read covering less than 2 SNPs are discarded): 
 
-    java -jar PolyPlotyping.jar -v[cf] vcffilename -b[am] bamfilenme -o outputFragFilename -b2f
+    java -jar H-PoPGv0.2.0.jar -v[cf] vcffilename -b[am] bamfilenme -o outputFragFilename -b2f
 
 (4) Output a File with detailed information about position in genome, SNP id, SNP alleles of the phased haplotypes, use the option -detailedoutput or -d as follows:
 
