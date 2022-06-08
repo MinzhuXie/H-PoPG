@@ -1,15 +1,17 @@
 # H-PoPG
 H-PoP and H-PoPG:  Heuristic Partitioning Algorithms for Single Individual Haplotyping of Polyploids
 
+```
 Usage: 
        java -jar H-PoPG.jar -p k-ploidy w weight (default 0.9) -f input_SNP_matrix_file_name -vcf vcf_file_name  -o output_phased_haplotypes_file_name
+```
 
 If -vcf option and the vcf file name are provided, H-PoPG is called, otherwise H-PoP is called.
 
 For example: 
 
-(1)  
 ```
+(1)  
 java -jar H-PoPG.jar -p 3 -f frags.txt -o phased_haplotypes.txt
 
    The command will call the algorithm H-PoP to reconstruct the haplotypes for a triploid (k=3). 
@@ -17,8 +19,8 @@ java -jar H-PoPG.jar -p 3 -f frags.txt -o phased_haplotypes.txt
    The reconstructed three haplotypes are stored in the output file phased_haplotypes.txt.
 ```
 
-(2) 
 ```
+(2) 
 java -jar H-PoPG.jar -p 3 -f frags.txt -vcf example.vcf -o phased_haplotypes.txt
 
    The command will call the algorithm H-PoPG to reconstruct the haplotypes for a triploid (k=3)
@@ -58,7 +60,7 @@ There is a discussion about the problems of using H-PoPG in stackoverflow (Thank
 http://stackoverflow.com/questions/39859409/h-popg-haplotyper-nullpointerexception-error-at-algorithms-hbop2builder
 
 
-*****Version 0.2.0 updated on Oct. 18, 2019*****
+# Version 0.2.0 updated on Oct. 18, 2019
 
 H-PoPG version: 0.2.0. Author: Xie Minzhu. Email: xieminzhu@hotmail.com 
 
